@@ -1,0 +1,30 @@
+.App {
+  border-style: double;
+  border-width: 5px;
+  width: 500px;
+  margin: 50px;
+  margin-left: 35%;
+  margin-top: 10%;
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus
+input[type="phonenumber"]:focus
+input[type="Submit"]:focus
+
+ {
+  outline: none;
+  border-color: #2196f3;
+  box-shadow: 0 0 10px #2196f3;
+}
+body{
+  background-image: url(https://img.freepik.com/free-photo/gold-ribbons-white-marble-social-template_53876-160530.jpg?size=626&ext=jpg&ga=GA1.1.1457752128.1675103979);
+  background-size: 100%;
+}
+button[type="submit"]:hover {
+  background-color: #1976d2;
+}
